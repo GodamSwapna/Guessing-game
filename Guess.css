@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: #405685c4;
+  font-size: 1.8rem;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+}
+/* *****header part***** */
+h1 {
+  text-align: center;
+  padding-top: 6.4rem;
+}
+.btn-again {
+  border: 2px solid grey;
+  padding: 0.5rem;
+  font-weight: 400;
+  font-size: 2rem;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  text-align: center;
+}
+.between {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+.number {
+  border: 5px solid white;
+  width: 250px;
+  text-align: center;
+  font-size: 4.8rem;
+  font-weight: 700;
+  background-color: white;
+  color: black;
+  margin: 3.2rem auto;
+}
+
+/* ******Main part ****** */
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12rem;
+  margin: 6.4rem;
+}
+
+.guess {
+  display: block;
+  width: 9.6rem;
+  height: 4.2rem;
+  margin-bottom: 2.4rem;
+  font-size: 3.6rem;
+  text-align: center;
+}
+.btn-check {
+  border: 2px solid grey;
+  padding: 0.5rem;
+  font-weight: 400;
+  font-size: 2rem;
+  border-radius: 10px;
+}
+.message {
+  margin-bottom: 2.4rem;
+}
+.label-score,
+.label-highscore {
+  margin-top: 15px;
+}
+.score,
+.highscore {
+  /* font-style: bold; */
+  padding-left: 2rem;
+  font-weight: 500;
+}
